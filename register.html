@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Зареєструватись | ФС</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <h1 class="yellowText">Фільмова скринька</h1>
+    <ul>
+        <li><a href="index.html">ГОЛОВНА</a></li>
+        <li><a href="movies.html">ФІЛЬМИ</a></li>
+        <li><a href="director.html">ПЕРСОНИ</a></li>
+    </ul>
+    <div class="boxForm">
+        <h2 class="yellowText" align="center">Зареєструвати аккаунт</h2>
+        <form>
+            <div class="inline">
+                <input type="text" name="username" placeholder="Ім'я користувача" class="field" />
+            </div>
+
+            <div class="inline">
+                <input type="password" name="password" placeholder="Пароль" class="field" />
+            </div>
+
+            <div>
+                <input type="email" name="email" placeholder="Електронна пошта" class="field" />
+            </div>
+
+            <div>
+                <label for="avatar">Аватар</label>
+                <input type="file" name="avatar" class="field" />
+            </div>
+
+            <div>
+                <label for="country">Країна</label>
+                <select name="country" id="country" class="field">
+                    <option value="">Україна</option>
+                    <option value="">Польща</option>
+                    <option value="">Німеччина</option>
+                    <option value="">Мальта</option>
+                    <option value="">Сполучені Штати Америки</option>
+                </select>
+            </div>
+
+            <div class="inline">
+                <b>Стать</b><br>
+                <input type="radio" name="sex" id="male" />
+                <label for="male">чоловік</label><br>
+
+                <input type="radio" name="sex" id="female" />
+                <label for="female">жінка</label>
+            </div>
+
+            <div class="inline">
+                <label for="birthday">День народження</label>
+                <input type="date" name="birthday" class="field">
+            </div>
+
+            <div>
+                <textarea name="bio" rows="6" placeholder="Розкажіть про себе!" class="field"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" name="terms" id="terms" />
+                <label for="terms">Я погоджуюсь з <span class="yellowText"><b>Користувацькою угодою</b></span></label>
+                <br>
+                <input type="checkbox" name="remember" id="remember" />
+                <label for="remember">Я не робот</label>
+            </div>
+        </form>
+    </div>
+    <center>Фільмова скринька © 2010-2022</center>
+</body>
+
+</html>
