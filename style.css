@@ -1,0 +1,94 @@
+body {
+    font-family: Bahnschrift;
+    color: #fafafa;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-color: #202020;
+}
+
+a {
+    text-decoration: none;
+    color: #ffcb35
+}
+
+    a:visited {
+        color: #ffcb35;
+    }
+
+    a:hover {
+        color: #ffe8a3;
+    }
+
+div {
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #191919;
+}
+
+th {
+    border-bottom: 2px solid #ffcb35;
+    border-right: 30px solid #191919;
+    border-left: 30px solid #191919;
+    padding: 8px 2px;
+}
+
+td {
+    border-right: 30px solid #191919;
+    border-left: 30px solid #191919;
+    padding: 12px 2px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+.box {
+    width: auto;
+    border: 1px solid #333;
+    padding: 20px;
+    background-image: linear-gradient(180deg, #151515, #171717 40%, #191919);
+}
+
+.boxForm {
+    box-sizing: content-box;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    padding: 20px;
+    background-image: linear-gradient(180deg, #151515, #171717 40%, #191919);
+}
+
+.field {
+    font-family: Bahnschrift;
+    display: block;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding: 7px 10px 7px;
+    width: 100%;
+}
+
+.inline {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.yellowText {
+    color: #ffcb35;
+}
+
+.greenText {
+    color: #21c774;
+}
+
+.pearText {
+    color: #d2d531;
+}
